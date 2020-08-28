@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d3c66616-be5b-423e-b256-e9ab36efee68" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gKG6y4eTnltaquHq3NPKcqHn6L" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.edu" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.edu.bindinglae" />
+      <recent name="org.edu.bindingdates" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ReadJSONTest.shouldGetSingleValueFromObject">
+    <configuration name="JsonDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.edu.streaming.JsonDataGenerator" />
+      <module name="JacksonLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.edu.streaming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JsonToObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.edu.objects.JsonToObject" />
+      <module name="JacksonLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.edu.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadJSONTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JacksonLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.edu.treeapitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.edu.treeapitest" />
+      <option name="MAIN_CLASS_NAME" value="org.edu.treeapitest.ReadJSONTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadJSONTest.shouldGetSingleValue" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JacksonLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.edu.treeapitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.edu.treeapitest" />
+      <option name="MAIN_CLASS_NAME" value="org.edu.treeapitest.ReadJSONTest" />
+      <option name="METHOD_NAME" value="shouldGetSingleValue" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReadJSONTest.shouldGetSingleValueFromObject" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="JacksonLibrary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.edu.treeapitest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.edu.treeapitest" />
+      <option name="MAIN_CLASS_NAME" value="org.edu.treeapitest.ReadJSONTest" />
+      <option name="METHOD_NAME" value="shouldGetSingleValueFromObject" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ReadJSONTest.shouldGetSingleValueFromObject" />
+        <item itemvalue="TestNG.ReadJSONTest" />
+        <item itemvalue="TestNG.ReadJSONTest.shouldGetSingleValue" />
+        <item itemvalue="Application.JsonDataGenerator" />
+        <item itemvalue="Application.JsonToObject" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3c66616-be5b-423e-b256-e9ab36efee68" name="Default Changelist" comment="" />
+      <created>1597855698487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597855698487</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="226" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598023145545">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="226" y="44" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1598023145545" />
+    <state x="363" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1598273773713">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="363" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1598273773713" />
+    <state x="534" y="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1598614538959">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="534" y="244" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728@0.0.1366.728" timestamp="1598614538959" />
+    <state x="451" y="109" key="FileChooserDialogImpl" timestamp="1598034151245">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="451" y="109" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1598034151245" />
+    <state width="1323" height="81" key="GridCell.Tab.0.bottom" timestamp="1598614926460">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598614926460" />
+    <state width="1323" height="81" key="GridCell.Tab.0.center" timestamp="1598614926460">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598614926460" />
+    <state width="1323" height="81" key="GridCell.Tab.0.left" timestamp="1598614926460">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598614926460" />
+    <state width="1323" height="81" key="GridCell.Tab.0.right" timestamp="1598614926460">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="81" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598614926460" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1598457258413">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598457258413" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1598457258413">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598457258413" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1598457258413">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598457258413" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1598457258413">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598457258413" />
+    <state x="338" y="56" key="NewModule_or_Project.wizard" timestamp="1598034155871">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="338" y="56" key="NewModule_or_Project.wizard/0.0.1366.728@0.0.1366.728" timestamp="1598034155871" />
+    <state x="275" y="0" key="SettingsEditor" timestamp="1598569365329">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1598569365329" />
+    <state x="297" y="200" key="com.intellij.ide.util.TipDialog" timestamp="1598563872139">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="297" y="200" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1598563872139" />
+    <state x="65" y="68" key="new project wizard" timestamp="1598288639162">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="68" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1598288639162" />
+  </component>
+</project>

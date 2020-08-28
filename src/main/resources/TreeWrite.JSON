@@ -1,0 +1,26 @@
+{
+  "firstName" : "John",
+  "middleName" : "Adam",
+  "lastName" : "Smith",
+  "isMember" : true,
+  "recentBp" : ["140/86", "135/83", "127/75"],
+  "specialistDoctors" : [{
+    "id" : 2,
+    "firstName" : "Mike",
+    "lastName" : "Brown"
+  },
+    {
+      "id" : 3,
+      "firstName" : "Michelle",
+      "lastName" : "Greene"
+    }],
+  "primaryDoctor" : {
+    "id" : 1,
+    "firstName" : "Michelle",
+    "lastName" : "Greene"
+  },
+  "age" : 29,
+  "nextAppointment" : null,
+  "recentVisits" : ["1/29/2018", "4/19/2018", "9/13/2018"],
+  "birthDate" : "5/17/1983"
+}

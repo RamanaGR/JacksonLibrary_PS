@@ -1,0 +1,16 @@
+{
+  "first_name" : "Jean-Marc",
+  "last_name" : "Jullien",
+  "dob" : "3/4/2019",
+  "patient_object" : {
+    "firstName" : "Jean-Marc",
+    "lastName" : "Julien",
+    "dob" : "5/12/1983",
+    "address" : null,
+    "city" : null,
+    "phone" : null,
+    "state" : null,
+    "zip" : null
+  },
+  "recent_visits_array" : [ "5/1/2019", "5/2/3576", "5/3/2019" ]
+}
