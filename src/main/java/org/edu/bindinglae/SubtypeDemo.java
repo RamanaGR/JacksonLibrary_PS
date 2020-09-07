@@ -14,14 +14,17 @@ public class SubtypeDemo {
         try {
             ObjectMapper om = new ObjectMapper();
             //om.enableDefaultTyping();
-            //om.addMixIn(MemberChild.class,MemberMixIn.class);
-            om.setAnnotationIntrospector(new IgnoranceIntrospector());
+            om.addMixIn(MemberChild.class,MemberMixIn.class);
+            //om.setAnnotationIntrospector(new IgnoranceIntrospector());
             om.enable(SerializationFeature.INDENT_OUTPUT);
+
             MemberAdult adult = new MemberAdult("5/29/87", "John smith", "1234567");
             MemberChild child = new MemberChild("Tommy smith", "John Smith", 5, "3/4/2014");
+
             List<Member> memberList = new ArrayList<>();
             memberList.add(child);
             memberList.add(adult);
+
             Patients serializedPatients = new Patients();
             serializedPatients.setMembers(memberList);
             String jsonDataString = om.writeValueAsString(serializedPatients);

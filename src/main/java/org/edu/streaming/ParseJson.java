@@ -12,9 +12,11 @@ public class ParseJson {
     public static void main(String[] args) throws IOException {
         JsonFactory jsonFactory = new JsonFactory();
         JsonParser jsonParser = jsonFactory.createParser(new File(System.getProperty("user.dir")+"/src/main/resources/Generate.JSON"));
+
         while (jsonParser.nextToken() != null) {
             JsonToken token = jsonParser.getCurrentToken();
             //System.out.println(token);
+
             if(token.equals(JsonToken.FIELD_NAME)){
                 String fieldName = jsonParser.getCurrentName();
                 jsonParser.nextToken();

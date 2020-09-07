@@ -3,7 +3,7 @@ package org.edu.bindinglae;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-//@JsonIgnoreProperties({"age", "dob"})
+@JsonIgnoreProperties({"age", "dob"})
 public class MemberChild extends Member {
     public int getAge() {
         return age;

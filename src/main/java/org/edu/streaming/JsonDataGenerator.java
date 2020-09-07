@@ -15,12 +15,13 @@ public class JsonDataGenerator {
             ObjectMapper mapper = new ObjectMapper();
             JsonFactory jsonFactory = new JsonFactory();
             JsonGenerator jsonGenerator = jsonFactory.createGenerator(new File(System.getProperty("user.dir")+"/src/main/resources/Generate.JSON"), JsonEncoding.UTF8);
-            JsonGenerator jsonGenerator1 = jsonFactory.createGenerator(System.out);
+           // JsonGenerator jsonGenerator1 = jsonFactory.createGenerator(System.out);
 
             jsonGenerator.setPrettyPrinter(new DefaultPrettyPrinter());
+
             jsonGenerator.setCodec(mapper);
 
-            jsonGenerator.writeStartObject();
+            jsonGenerator.writeStartObject();//{
 
             jsonGenerator.writeFieldName("first_name");
             jsonGenerator.writeString("Jean-Marc");
@@ -45,7 +46,7 @@ public class JsonDataGenerator {
             jsonGenerator.writeString("5/3/2019");
             jsonGenerator.writeEndArray();
 
-            jsonGenerator.writeEndObject();
+            jsonGenerator.writeEndObject();//  }
             jsonGenerator.close();
         }
 

@@ -8,6 +8,7 @@ public class Event {
     private String name;
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-mm-dd hh:mm")
     private Date dob;
+
     public Event() {
     }
 

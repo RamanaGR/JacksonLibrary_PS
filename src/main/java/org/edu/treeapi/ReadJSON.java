@@ -3,7 +3,6 @@ package org.edu.treeapi;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.testng.annotations.BeforeMethod;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,20 +14,20 @@ import java.util.List;
 public class ReadJSON {
     private static JsonNode root;
 
-    @BeforeMethod
-    public void setUp() throws IOException {
-        ObjectMapper mapper = new ObjectMapper();
-        root = mapper.readTree(new File(System.getProperty("user.dir")+"/src/main/resources/TreeRead.JSON"));
-        ReadJSON rj = new ReadJSON();
-    }
+//    @BeforeMethod
+//    public void setUp() throws IOException {
+//        ObjectMapper mapper = new ObjectMapper();
+//        root = mapper.readTree(new File(System.getProperty("user.dir")+"/src/main/resources/TreeRead.JSON"));
+//        ReadJSON rj = new ReadJSON();
+//    }
 
     public static void main(String[] args) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
-        root = mapper.readTree(new File(System.getProperty("user.dir")+"/src/main/resources/TreeRead.JSON"));
+        root = mapper.readTree(new File(System.getProperty("user.dir") + "/src/main/resources/TreeRead.JSON"));
         ReadJSON rj = new ReadJSON();
-        System.out.println(rj.getSingleValue("middleName"));
-        System.out.println(rj.getArrayOfValues("recentVisits"));
-        System.out.println(rj.getValueFromObject("primaryDoctor", "lastName"));
+        System.out.println(rj.getSingleValue("middleName"));//Adam
+        System.out.println(rj.getArrayOfValues("recentVisits")); // ["1/29/2018", "4/19/2018", "9/13/2018"]
+        System.out.println(rj.getValueFromObject("primaryDoctor", "lastName"));//Greene
         System.out.println(rj.getListOfObject("specialistDoctors"));
     }
 
@@ -39,10 +38,10 @@ public class ReadJSON {
 
     public List<String> getArrayOfValues(String keyOfArray) {
         ArrayList<String> al = new ArrayList<>();
-        ;
-        JsonNode arrayOfBp = root.get(keyOfArray);
-        if (arrayOfBp.isArray()) {
-            for (JsonNode jsonNode : arrayOfBp) {
+
+        JsonNode arrayOfVisites = root.get(keyOfArray);
+        if (arrayOfVisites.isArray()) {
+            for (JsonNode jsonNode : arrayOfVisites) {
                 al.add(jsonNode.asText());
             }
             return al;
@@ -62,13 +61,15 @@ public class ReadJSON {
     }
 
     public List<String> getListOfObject(String key) {
+        ArrayList<String> al = new ArrayList<>();
         JsonNode arrayOfDoctors = root.get(key);
         for (JsonNode jsonNode : arrayOfDoctors) {
-            return List.of(("id : " + jsonNode.get("id").asText()
+            al.add(("id : " + jsonNode.get("id").asText()
                     + " firstName : " + jsonNode.get("firstName").asText()
                     + " lastName : " + jsonNode.get("lastName").asText()));
         }
-        return List.of(arrayOfDoctors.asText());
+
+        return al;
     }
 }
 
