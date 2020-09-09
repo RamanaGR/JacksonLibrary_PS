@@ -1,1 +1,0 @@
-Jenkins Sesssion Every Minute Build will trigger
