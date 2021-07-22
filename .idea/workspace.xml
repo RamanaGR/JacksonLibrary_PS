@@ -74,7 +74,7 @@
       <recent name="org.edu.bindingdates" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParseJson">
+  <component name="RunManager" selected="TestNG.ReadJSONTest.shouldGetArrayOfValuesAsList">
     <configuration name="JsonDataGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.edu.streaming.JsonDataGenerator" />
       <module name="JacksonLibrary" />
@@ -127,26 +127,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteJSON" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.edu.treeapi.WriteJSON" />
+    <configuration name="ReadJSONTest.shouldGetArrayOfValuesAsList" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="JacksonLibrary" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.edu.treeapi.*" />
+          <option name="PATTERN" value="org.edu.treeapitest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.edu.treeapitest" />
+      <option name="MAIN_CLASS_NAME" value="org.edu.treeapitest.ReadJSONTest" />
+      <option name="METHOD_NAME" value="shouldGetArrayOfValuesAsList" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ReadJSONTest.shouldGetArrayOfValuesAsList" />
         <item itemvalue="Application.ParseJson" />
         <item itemvalue="Application.JsonToObject" />
         <item itemvalue="Application.ObjectToJson" />
         <item itemvalue="Application.JsonDataGenerator" />
-        <item itemvalue="Application.WriteJSON" />
       </list>
     </recent_temporary>
   </component>

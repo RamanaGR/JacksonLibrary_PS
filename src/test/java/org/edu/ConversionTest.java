@@ -3,6 +3,7 @@ package org.edu;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.edu.objects.Patient;
+import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -32,7 +33,6 @@ public class ConversionTest {
         patient.setPhone("555-123-9876");
 
         mapper.writeValue(new File(System.getProperty("user.dir") + "/src/main/resources/ObjectToJson.json"), patient);
-
     }
 
     @Test
