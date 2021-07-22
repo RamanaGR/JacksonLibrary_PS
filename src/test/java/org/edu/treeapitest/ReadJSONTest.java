@@ -42,7 +42,7 @@ public class ReadJSONTest {
             }
         }
 
-        List<String> expected = List.of("1/29/2018", "4/19/201", "9/13/2018");
+        List<String> expected = List.of("1/29/2018", "4/19/2018", "9/13/2018");
         Assert.assertEquals(actual, expected);
     }
 
