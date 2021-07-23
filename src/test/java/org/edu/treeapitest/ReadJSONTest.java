@@ -70,5 +70,11 @@ public class ReadJSONTest {
         List<String> expected = List.of("id : 2 firstName : Mike lastName : Brown", "id : 3 firstName : Michelle lastName : Greene");
         Assert.assertEquals(actual, expected);
     }
+  @Test
+    public void newTestCase() throws IOException {
+     
+        Assert.assertTrue(true);
+    }
+
 
 }
